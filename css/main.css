@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+
+body {
+    font-family: sans-serif;
+    left: 10px;
+    /* top: 20px;  */
+    font-family: 'Sarabun', sans-serif;
+    background: #efefef;
+}
+
+.container {
+    margin-left: 100px;
+    width: 68%;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 1px;
+    background:  rgb(6, 1, 19);
+}
+
+header h1 {
+    color: #eee;
+    padding: 10px;
+}
+
+.side-bar {
+    width: 15%;
+    height: 80vh;
+    align-content: center;
+    position: fixed;
+    overflow-x: hidden;
+    background:  rgb(6, 1, 19);
+    padding: 8px;
+    
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.3em;
+    display: block;  
+    cursor: pointer;
+    color: #eee;
+    padding: 5px;
+    margin: 10px 2px; 
+    /* border: 2px solid white;
+    border-radius: 5px; */
+}
+
+.main {
+    margin-left: 220px;
+    width: 50%;
+    background: #706c6c;
+    height: 80vh;
+    padding: 8px;
+    position: fixed;
+    color: #eee;
+}
+
+.main h2 {
+    border-left: 50px;
+}
+
+input[type=text], input[type=password], input[type=number] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=password]{
+    margin-left: 9px;
+}
+
+input[type=number]{
+    margin-left: 20px;
+}
+
+input[type=submit] {
+    width: 100px;
+    margin-left: 88px;
+    font-weight: bold;
+}
+
+#content {
+    margin-left: 20px;
+}
+
+.main-content {
+    position: fixed;
+}
+
+li:hover {
+    color: rgb(6, 1, 19);
+    background: #eee;
+    font-weight: bold;
+}
+
+li:visited {
+    color: red;
+}
+
+.error {
+    margin-left: 90px;
+    padding: 10px;
+    font-weight: bold;
+    color: red;
+}
